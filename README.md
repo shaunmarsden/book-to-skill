@@ -5,7 +5,7 @@
   <a href="LICENSE"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-lightgrey"></a>
 </p>
 
-Turn a book you already own into a Claude skill: a short index plus one file per chapter, so an AI assistant can consult it chapter by chapter instead of holding the whole thing in context every time.
+Turn a book you already own into a Claude skill: a short index plus one file per chapter, so an AI assistant can consult it chapter by chapter instead of holding the whole thing in context every time. Also works for a training course or an internal policy document, not just a book.
 
 ## Why
 
@@ -22,7 +22,7 @@ Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemin
 
 No installation, project, or coding required to try it once. Doing this regularly for the same book is easiest inside a Claude Project, a Custom GPT, or a Gemini Gem, where the generated files can be attached as knowledge once and reused.
 
-See [the worked example](example/) for what this actually produces, three chapters of *The Art of War* structured this way, chosen because it is old enough to be public domain everywhere.
+See [the worked example](example/) for what this actually produces, three chapters of *The Art of War* structured this way, chosen because it is old enough to be public domain everywhere. See [the second worked example](example-two/) for the one genuine difference when the source is a policy rather than a book: a policy can contradict itself between sections in a way a book rarely does, and the index needs to flag that rather than silently pick a side.
 
 ## Before You Use It
 
