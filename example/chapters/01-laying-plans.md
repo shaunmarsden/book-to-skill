@@ -6,11 +6,11 @@ An outcome is mostly decided before it begins, by comparing both sides honestly 
 
 ## The Five Factors
 
-1. **Moral influence** — whether people genuinely support the effort, not just comply with it
-2. **Weather** — timing and conditions outside anyone's control
-3. **Terrain** — the ground the effort actually happens on, and who it favours
-4. **Command** — whether the person leading is capable, not just senior
-5. **Doctrine** — whether the organisation, roles and supply behind the effort are actually sound
+1. **Moral influence**: whether people genuinely support the effort, not just comply with it
+2. **Weather**: timing and conditions outside anyone's control
+3. **Terrain**: the ground the effort actually happens on, and who it favours
+4. **Command**: whether the person leading is capable, not just senior
+5. **Doctrine**: whether the organisation, roles and supply behind the effort are actually sound
 
 ## Why This Matters
 

@@ -10,10 +10,10 @@ Loading a 400-page book fully can cost hundreds of thousands of tokens before yo
 
 Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemini, or similar), then paste in the book's text, a chapter at a time for a long book. It builds:
 
-- **An index file** — the book's argument in one paragraph, a chapter list, and where the glossary and techniques document live, kept short enough to load every time
-- **One file per chapter** — structured concepts and techniques, not a copy of the original prose
-- **A techniques and patterns document** — every named method in the book, with the chapter it came from
-- **A glossary** — definitions for terms the book uses in a specific way
+- **An index file**: the book's argument in one paragraph, a chapter list, and where the glossary and techniques document live, kept short enough to load every time
+- **One file per chapter**: structured concepts and techniques, not a copy of the original prose
+- **A techniques and patterns document**: every named method in the book, with the chapter it came from
+- **A glossary**: definitions for terms the book uses in a specific way
 
 No installation, project, or coding required to try it once. Doing this regularly for the same book is easiest inside a Claude Project, a Custom GPT, or a Gemini Gem, where the generated files can be attached as knowledge once and reused.
 
