@@ -1,5 +1,10 @@
 # Book to Skill
 
+<p>
+  <img alt="Status: Working tool" src="https://img.shields.io/badge/status-working%20tool-2563eb">
+  <a href="LICENSE"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-lightgrey"></a>
+</p>
+
 Turn a book you already own into a Claude skill: a short index plus one file per chapter, so an AI assistant can consult it chapter by chapter instead of holding the whole thing in context every time.
 
 ## Why
@@ -28,3 +33,7 @@ The tool itself, [SKILL.md](SKILL.md), never contains, ships, or requires any ac
 ## Licence
 
 MIT. Use, adapt, or share the tool itself freely. It never contains anyone's copyrighted book content, only the method for structuring your own.
+
+## Feedback
+
+Tried it on a real book? [Start a discussion](https://github.com/shaunmarsden/book-to-skill/discussions) if something did not work the way you expected, or if the output format could be better.
