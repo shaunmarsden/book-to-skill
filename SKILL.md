@@ -63,4 +63,4 @@ Do not produce this output when:
 
 Skim each section file once against the original before relying on it for something that matters. A structuring pass can still misread emphasis or drop a qualifier the original section actually included, and for a policy, still miss a contradiction worth flagging.
 
-For a fictional worked example using a book, read [the worked example](example/). For one using an internal policy, including the contradiction check in practice, read [the second worked example](example-two/).
+For a fictional worked example using a book, read [the worked example](example/). For one using an internal policy, including the contradiction check in practice, read [the second worked example](example-two/). Use [the review checklist](checks/checklist.md) before relying on the generated files.

@@ -11,6 +11,14 @@ Turn a book you already own into a Claude skill: a short index plus one file per
 
 Loading a 400-page book fully can cost hundreds of thousands of tokens before you have asked a single question, and most of those tokens go unused on any given answer, since only a chapter or two is usually relevant. This restructures a book the same way any other AI skill is structured: a short file that is always loaded, and deeper material that only opens when a specific step actually needs it.
 
+```mermaid
+flowchart TB
+    A["1. Paste the book, course, or policy text, a chapter at a time"]
+    B["2. Structured into an index, chapter files, techniques, and a glossary"]
+    C["3. Only the relevant chapter loads when a question actually needs it"]
+    A --> B --> C
+```
+
 ## Use It
 
 Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemini, or similar), then paste in the book's text, a chapter at a time for a long book. It builds:
@@ -20,9 +28,21 @@ Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemin
 - **A techniques and patterns document**: every named method in the book, with the chapter it came from
 - **A glossary**: definitions for terms the book uses in a specific way
 
+<details>
+<summary><strong>See exactly what it produces</strong></summary>
+
+1. A short index file, the book's argument in one paragraph, a chapter list, and pointers to the glossary and techniques document
+2. One structured file per chapter, concepts and techniques rather than a copy of the prose
+3. A techniques and patterns document, and a glossary, each built once and reused across chapters
+4. For a policy or course, any contradiction between sections flagged in the index, not silently resolved
+
+</details>
+
 No installation, project, or coding required to try it once. Doing this regularly for the same book is easiest inside a Claude Project, a Custom GPT, or a Gemini Gem, where the generated files can be attached as knowledge once and reused.
 
 See [the worked example](example/) for what this actually produces, three chapters of *The Art of War* structured this way, chosen because it is old enough to be public domain everywhere. See [the second worked example](example-two/) for the one genuine difference when the source is a policy rather than a book: a policy can contradict itself between sections in a way a book rarely does, and the index needs to flag that rather than silently pick a side.
+
+Use [the review checklist](checks/checklist.md) before relying on the generated files.
 
 ## Before You Use It
 
