@@ -11,7 +11,7 @@ Turn a book you already own into a Claude skill: a short index plus one file per
 
 Loading a 400-page book fully can cost hundreds of thousands of tokens before you have asked a single question, and most of those tokens go unused on any given answer, since only a chapter or two is usually relevant. This restructures a book the same way any other AI skill is structured: a short file that is always loaded, and deeper material that only opens when a specific step actually needs it.
 
-![A source book, course or policy becoming structured skill files.](assets/diagrams/10-book-to-skill.svg)
+[![A source book, course or policy becoming structured skill files.](assets/diagrams/10-book-to-skill.svg)](SKILL.md)
 
 ## Use It
 
