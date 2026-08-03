@@ -40,7 +40,9 @@ Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemin
 
 No installation, project, or coding required to try it once. Doing this regularly for the same book is easiest inside a Claude Project, a Custom GPT, or a Gemini Gem, where the generated files can be attached as knowledge once and reused.
 
-See [the worked example](example/) for what this actually produces, three chapters of *The Art of War* structured this way, chosen because it is old enough to be public domain everywhere. See [the second worked example](example-two/) for the one genuine difference when the source is a policy rather than a book: a policy can contradict itself between sections in a way a book rarely does, and the index needs to flag that rather than silently pick a side.
+See [the worked example](example/) for what this actually produces, three chapters of *The Art of War* structured this way, chosen because it is old enough to be public domain everywhere.
+
+See [the second worked example](example-two/) for the one genuine difference when the source is a policy rather than a book: a policy can contradict itself between sections in a way a book rarely does, and the index needs to flag that rather than silently pick a side.
 
 Use [the review checklist](checks/checklist.md) before relying on the generated files.
 
