@@ -11,13 +11,7 @@ Turn a book you already own into a Claude skill: a short index plus one file per
 
 Loading a 400-page book fully can cost hundreds of thousands of tokens before you have asked a single question, and most of those tokens go unused on any given answer, since only a chapter or two is usually relevant. This restructures a book the same way any other AI skill is structured: a short file that is always loaded, and deeper material that only opens when a specific step actually needs it.
 
-```mermaid
-flowchart TB
-    A["1. Paste the book, course, or policy text, a chapter at a time"]
-    B["2. Structured into an index, chapter files, techniques, and a glossary"]
-    C["3. Only the relevant chapter loads when a question actually needs it"]
-    A --> B --> C
-```
+![A source book, course or policy becoming structured skill files.](assets/diagrams/10-book-to-skill.svg)
 
 ## Use It
 
