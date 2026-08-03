@@ -37,3 +37,7 @@ MIT. Use, adapt, or share the tool itself freely. It never contains anyone's cop
 ## Feedback
 
 Tried it on a real book? [Start a discussion](https://github.com/shaunmarsden/book-to-skill/discussions) if something did not work the way you expected, or if the output format could be better.
+
+## Part of a Family
+
+This was the first of a growing family of free tools; the rest generalise [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) patterns beyond sales. See [sibling-projects](https://github.com/shaunmarsden/sibling-projects) for the rest, or use [the router](https://github.com/shaunmarsden/sibling-projects/blob/main/ROUTER.md) if you are not sure which one actually fits.
