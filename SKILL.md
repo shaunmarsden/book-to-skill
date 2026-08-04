@@ -5,7 +5,7 @@ description: Turn a book you already own into a structured Claude skill, a short
 
 # Turn a Book Into a Skill
 
-You do not need to install anything to try this once: copy this whole file, paste it as your first message in any AI chat tool, then paste in the text, a chapter or section at a time works best for a long one.
+You do not need to install anything to try this once. The lines between the dashes at the very top are just this file's label; leave them in. On GitHub, copy this using the **Raw** button near the top of the page rather than selecting the rendered text, so the tables and links below paste in cleanly. Send the whole file as your first message in any AI chat tool, then paste in the text, a chapter or section at a time works best for a long one.
 
 A full book, course, or policy loaded into context costs tokens whether or not a given answer actually needs it. This restructures it the same way any other AI skill is structured: a short index that loads every time, and separate section files that only open when a specific question actually needs that section.
 
