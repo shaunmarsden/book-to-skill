@@ -13,6 +13,8 @@ Loading a 400-page book fully can cost hundreds of thousands of tokens before yo
 
 [![A source book, course or policy becoming structured skill files.](assets/diagrams/10-book-to-skill.svg)](SKILL.md)
 
+**Not what you need?** This structures a book, course, or policy document you already have into skill files, chapter by chapter. If you have a different repeated task and want a bounded skill built from a plain-English description instead, [Skill Author](https://github.com/shaunmarsden/skill-author) is probably the one you want.
+
 ## Use It
 
 Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemini, or similar), then paste in the book's text, a chapter at a time for a long book. It builds:
