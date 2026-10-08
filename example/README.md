@@ -8,3 +8,5 @@ This shows what [SKILL.md](../SKILL.md) produces, using *The Art of War* (Sun Tz
 - [glossary.md](glossary.md): key terms that keep coming up
 
 This is a demonstration. It doesn't mean this repository contains or shares any book. The three chapter files paraphrase and structure well-known, public-domain ideas; they don't copy any particular translation.
+
+The repository doesn't record which model wrote these files, or whether it knew what the test was checking. Read it as an illustration of what a good run looks like, not as a logged run.
