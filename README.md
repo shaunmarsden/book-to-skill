@@ -58,6 +58,19 @@ MIT. Use, adapt or share the tool freely. This licence does not grant rights to 
 
 Tried it on a real book? [Start a discussion](https://github.com/shaunmarsden/book-to-skill/discussions) if something didn't work as you expected, or if the output could be better.
 
+## Checks and Next Test
+
+The [evaluation plan](checks/evaluation-plan.md) sets out a proposed comparison before I change the skill. It has not been run, and the cases and candidate still need to be frozen.
+
+Basic documentation checks run on pull requests and changes to main. They check relative links, heading links, punctuation and SVG XML. They do not test AI output, copyright status, external links or token savings. To run them locally with Python 3.11 or newer:
+
+```sh
+python3 -m unittest discover -s checks -p 'test_*.py' -v
+python3 checks/check_repository.py
+```
+
+The checker reads Git-tracked files, so stage new documentation before checking it. It handles the inline Markdown and HTML links used here, not every possible Markdown extension.
+
 ## Part of a Family
 
 This was the first of a growing set of free tools. The rest take [practical-ai-sales-workflows](https://github.com/shaunmarsden/practical-ai-sales-workflows) patterns beyond sales. See [sibling-projects](https://github.com/shaunmarsden/sibling-projects) for the list, or use [the router](https://github.com/shaunmarsden/sibling-projects/blob/main/ROUTER.md) if you're not sure which one fits.
