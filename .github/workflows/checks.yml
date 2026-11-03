@@ -1,0 +1,28 @@
+name: Documentation checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test the checker with synthetic fixtures
+        run: python3 -m unittest discover -s checks -p 'test_*.py' -v
+      - name: Check tracked documentation
+        run: python3 checks/check_repository.py
+      - name: Check patch whitespace
+        run: git diff --check HEAD^ HEAD
