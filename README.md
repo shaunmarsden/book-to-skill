@@ -1,15 +1,17 @@
 # Book to Skill
 
 <p>
-  <img alt="Status: Working tool" src="https://img.shields.io/badge/status-working%20tool-2563eb">
+  <img alt="Status: Illustrative examples" src="https://img.shields.io/badge/status-illustrative%20examples-2563eb">
   <a href="LICENSE"><img alt="Licence: MIT" src="https://img.shields.io/badge/licence-MIT-lightgrey"></a>
 </p>
 
-Turn a book you already own into a Claude skill: a short index plus one file per chapter. An AI assistant can then look things up chapter by chapter instead of holding the whole book in context every time. It also works for a training course or an internal policy document.
+Turn source text into reference files for an AI assistant: a short index plus one file per chapter or section. The instructions cover books, training courses and internal policies. Use only material you have permission to process this way.
 
 ## Why
 
-Loading a whole 400-page book can cost hundreds of thousands of tokens before you've asked a single question. Many of them go unused, since any one answer often needs only a chapter or two. This tool sets a book out the way any other AI skill is set out: a short file that always loads, and deeper material that opens only when a step needs it.
+Loading a whole book puts text into the AI's working context that a particular question may not need. These instructions ask for a short index and separate chapter files, so relevant material can be supplied on its own.
+
+Creating files does not make an AI load them selectively. That depends on the tool and how you supply the files. In an ordinary chat, you can provide the index and then the relevant chapter yourself. This repository has no measured token-saving result or logged model test; the examples show the intended format, not verified performance.
 
 [![A source book, course or policy becoming structured skill files.](assets/diagrams/10-book-to-skill.svg)](SKILL.md)
 
@@ -17,7 +19,7 @@ Loading a whole 400-page book can cost hundreds of thousands of tokens before yo
 
 ## Use It
 
-Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemini or similar). Then paste in the book's text, a chapter at a time for a long book. It builds:
+Copy [SKILL.md](SKILL.md) and paste it into any AI chat. Then paste in source text you have permission to use, a chapter at a time for a long book. The instructions ask for:
 
 - an index file with the book's argument in one paragraph, a chapter list, and where to find the glossary and techniques document, short enough to load every time
 - one file per chapter, setting out its ideas and techniques rather than copying the original prose
@@ -25,7 +27,7 @@ Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemin
 - a glossary of terms the book uses in its own way
 
 <details>
-<summary><strong>See exactly what it produces</strong></summary>
+<summary><strong>See the requested file structure</strong></summary>
 
 1. A short index file: the book's argument in one paragraph, a chapter list, and pointers to the glossary and techniques document
 2. One structured file per chapter, with ideas and techniques rather than a copy of the prose
@@ -34,23 +36,23 @@ Copy [SKILL.md](SKILL.md) and paste it into your AI tool (ChatGPT, Claude, Gemin
 
 </details>
 
-You don't need to install anything, set up a project or write code to try it once. If you use the same book often, a Claude Project, a Custom GPT or a Gemini Gem is easiest, because you can attach the files once and reuse them.
+You don't need to install anything, set up a project or write code to try it once. For repeated use, a tool that supports saved reference files may help. Uploading files alone does not guarantee that only the relevant chapter enters the AI's working context. Compatibility has not been logged for individual AI tools here.
 
-[The worked example](example/) shows what it produces: three chapters of *The Art of War*, which I chose because it's old enough to be public domain everywhere.
+[The book example](example/) shows the intended structure using ideas from three chapters of *The Art of War*. It is an illustration, not a logged test. The repository does not identify a source edition or translation, so it does not establish rights or source fidelity for a particular edition.
 
-[The second worked example](example-two/) shows the one real difference when the source is a policy rather than a book. A policy can contradict itself between sections in a way a book rarely does, and the index needs to flag that rather than quietly pick a side.
+[The policy example](example-two/) shows an index recording a later update that explicitly replaces an earlier rule for eligible roles only. It illustrates a scoped update, not a test of how the AI handles an unresolved contradiction. Books, courses and policies can all contain conflicting information.
 
 Go through [the review checklist](checks/checklist.md) before you rely on the files it builds.
 
 ## Before You Use It
 
-Only use a book you have the legal right to read: one you bought, borrowed properly, or that's in the public domain. The output is for your own private use. Don't publish, sell or share the chapter files, the techniques document or the glossary.
+Owning or borrowing a copy does not establish permission for every use of its contents. Check that you may process the source in your chosen AI tool. For work material, check your organisation's approval and confidentiality rules too. The output is for your own private use. Don't publish, sell or share the chapter files, the techniques document or the glossary. [UK copyright guidance](https://www.gov.uk/using-somebody-elses-intellectual-property/copyright) explains permissions and exceptions; this tool does not determine which apply to your source.
 
-The tool itself, [SKILL.md](SKILL.md), never contains, ships or needs any book content. You supply that from a copy you have the right to read, and the output stays with you. The one exception is the worked example folder, which uses a public-domain text on purpose so the demonstration carries no copyright risk.
+The instruction file, [SKILL.md](SKILL.md), contains no book text. Running it requires source text that you supply. Pasting or uploading that text sends it to your chosen AI service, subject to that service's data policies. This repository does not provide a private processing environment or verify the rights to a source or translation.
 
 ## Licence
 
-MIT. Use, adapt or share the tool freely. It never contains anyone's copyrighted book content, only the method for structuring your own.
+MIT. Use, adapt or share the tool freely. This licence does not grant rights to books, courses or policies you supply.
 
 ## Feedback
 
